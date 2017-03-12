@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.nws.noaa.gov/forecasts/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA's National Weather Service Real Time Mesoscale Analysis And Forecast Data</title>
+      <field>meteorological</field>
+      <category>analysis and forecast</category>
+      <creation-date refresh-frequency="PT1H">2017-03-12T21:49:34Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://products.weather.gov/search.php</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="37.38" longitude="-121.74"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">http://forecast.weather.gov/MapClick.php?textField1=37.38&textField2=-121.74</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n1-1</layout-key>
+      <start-valid-time>2017-03-12T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T20:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n1-2</layout-key>
+      <start-valid-time>2017-03-12T20:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T09:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p12h-n2-3</layout-key>
+      <start-valid-time>2017-03-12T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T05:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p6h-n3-4</layout-key>
+      <start-valid-time>2017-03-12T11:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T23:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T05:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n4-5</layout-key>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T20:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-13T02:00:00-07:00</start-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n10-6</layout-key>
+      <start-valid-time>2017-03-12T15:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T16:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T18:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T19:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T20:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T21:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T22:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-13T00:00:00-07:00</start-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1m-n1-7</layout-key>
+      <start-valid-time>2017-02-28T16:00:00-08:00</start-valid-time>
+      <end-valid-time>2017-03-31T17:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3m-n1-8</layout-key>
+      <start-valid-time>2017-02-28T16:00:00-08:00</start-valid-time>
+      <end-valid-time>2017-05-31T17:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p12h-n1-9</layout-key>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T11:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p12h-n2-10</layout-key>
+      <start-valid-time>2017-03-12T14:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T23:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-13T11:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T23:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n18-11</layout-key>
+      <start-valid-time>2017-03-11T23:02:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T00:02:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T01:02:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T03:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T04:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T05:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T06:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T07:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T08:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T09:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T10:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T11:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T12:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T13:02:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T20:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-13T02:00:00-07:00</start-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n17-12</layout-key>
+      <start-valid-time>2017-03-11T22:00:00-08:00</start-valid-time>
+      <end-valid-time>2017-03-11T23:00:00-08:00</end-valid-time>
+      <start-valid-time>2017-03-11T23:00:00-08:00</start-valid-time>
+      <end-valid-time>2017-03-12T00:00:00-08:00</end-valid-time>
+      <start-valid-time>2017-03-12T00:00:00-08:00</start-valid-time>
+      <end-valid-time>2017-03-12T01:00:00-08:00</end-valid-time>
+      <start-valid-time>2017-03-12T02:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T03:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T03:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T04:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T04:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T05:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T05:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T06:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T06:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T07:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T07:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T08:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T08:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T09:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T09:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T10:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T10:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T11:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T11:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T12:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T12:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T13:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T11:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T17:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-12T23:00:00-07:00</end-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <end-valid-time>2017-03-13T05:00:00-07:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n18-13</layout-key>
+      <start-valid-time>2017-03-11T23:00:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T00:00:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T01:00:00-08:00</start-valid-time>
+      <start-valid-time>2017-03-12T03:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T04:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T05:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T06:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T07:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T08:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T09:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T10:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T11:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T12:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T13:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T17:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T20:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-12T23:00:00-07:00</start-valid-time>
+      <start-valid-time>2017-03-13T02:00:00-07:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n1-1">
+        <name>Daily Maximum Temperature</name>
+        <value>69</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n1-2">
+        <name>Daily Minimum Temperature</name>
+        <value>49</value>
+      </temperature>
+      <temperature type="hourly" units="Fahrenheit" time-layout="k-p1h-n18-13">
+        <name>Temperature</name>
+        <value type="RTMA">49</value>
+        <value type="RTMA">50</value>
+        <value type="RTMA">49</value>
+        <value type="RTMA">51</value>
+        <value type="RTMA">50</value>
+        <value type="RTMA">49</value>
+        <value type="RTMA">48</value>
+        <value type="RTMA">49</value>
+        <value type="RTMA">49</value>
+        <value type="RTMA">56</value>
+        <value type="RTMA">66</value>
+        <value type="RTMA">63</value>
+        <value type="RTMA">66</value>
+        <value type="RTMA">68</value>
+        <value type="NDFD">67</value>
+        <value type="NDFD">56</value>
+        <value type="NDFD">51</value>
+        <value type="NDFD">50</value>
+      </temperature>
+      <temperature type="dew point" units="Fahrenheit" time-layout="k-p1h-n18-13">
+        <name>Dew Point Temperature</name>
+        <value type="RTMA">42</value>
+        <value type="RTMA">40</value>
+        <value type="RTMA">40</value>
+        <value type="RTMA">41</value>
+        <value type="RTMA">41</value>
+        <value type="RTMA">41</value>
+        <value type="RTMA">40</value>
+        <value type="RTMA">42</value>
+        <value type="RTMA">43</value>
+        <value type="RTMA">47</value>
+        <value type="RTMA">48</value>
+        <value type="RTMA">47</value>
+        <value type="RTMA">49</value>
+        <value type="RTMA">49</value>
+        <value type="NDFD">46</value>
+        <value type="NDFD">47</value>
+        <value type="NDFD">45</value>
+        <value type="NDFD">43</value>
+      </temperature>
+      <precipitation type="liquid" units="inches" time-layout="k-p1h-n17-12">
+        <name>Liquid Precipitation Amount</name>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="RTMA">0.00</value>
+        <value type="NDFD">0.00</value>
+        <value type="NDFD">0.00</value>
+        <value type="NDFD">0.00</value>
+      </precipitation>
+      <wind-speed type="sustained" units="knots" time-layout="k-p1h-n18-13">
+        <name>Wind Speed</name>
+        <value type="RTMA">2</value>
+        <value type="RTMA">3</value>
+        <value type="RTMA">5</value>
+        <value type="RTMA">5</value>
+        <value type="RTMA">4</value>
+        <value type="RTMA">4</value>
+        <value type="RTMA">4</value>
+        <value type="RTMA">4</value>
+        <value type="RTMA">5</value>
+        <value type="RTMA">4</value>
+        <value type="RTMA">1</value>
+        <value type="RTMA">1</value>
+        <value type="RTMA">7</value>
+        <value type="RTMA">6</value>
+        <value type="NDFD">9</value>
+        <value type="NDFD">6</value>
+        <value type="NDFD">5</value>
+        <value type="NDFD">6</value>
+      </wind-speed>
+      <direction type="wind" units="degrees true" time-layout="k-p1h-n18-13">
+        <name>Wind Direction</name>
+        <value type="RTMA">7</value>
+        <value type="RTMA">15</value>
+        <value type="RTMA">9</value>
+        <value type="RTMA">12</value>
+        <value type="RTMA">15</value>
+        <value type="RTMA">20</value>
+        <value type="RTMA">17</value>
+        <value type="RTMA">29</value>
+        <value type="RTMA">36</value>
+        <value type="RTMA">46</value>
+        <value type="RTMA">41</value>
+        <value type="RTMA">10</value>
+        <value type="RTMA">308</value>
+        <value type="RTMA">312</value>
+        <value type="NDFD">320</value>
+        <value type="NDFD">20</value>
+        <value type="NDFD">10</value>
+        <value type="NDFD">10</value>
+      </direction>
+      <cloud-amount type="total" units="percent" time-layout="k-p1h-n18-11">
+        <name>Cloud Cover Amount</name>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA">100</value>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="RTMA" xsi:nil="true"/>
+        <value type="NDFD">1</value>
+        <value type="NDFD">1</value>
+        <value type="NDFD">5</value>
+        <value type="NDFD">7</value>
+      </cloud-amount>
+      <temperature type="apparent" units="Fahrenheit" time-layout="k-p3h-n4-5">
+        <name>Apparent Temperature</name>
+        <value>67</value>
+        <value>56</value>
+        <value>51</value>
+        <value>50</value>
+      </temperature>
+      <precipitation type="ice" units="inches" time-layout="k-p6h-n3-4">
+        <name>Ice Accumulation</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </precipitation>
+      <precipitation type="snow" units="inches" time-layout="k-p6h-n3-4">
+        <name>Snow Amount</name>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+      </precipitation>
+      <probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n2-3">
+        <name>12 Hourly Probability of Precipitation</name>
+        <value>1</value>
+        <value>0</value>
+      </probability-of-precipitation>
+      <fire-weather type="risk from wind and relative humidity" time-layout="k-p24h-n1-2">
+        <name>Fire Weather Outlook from Wind and Relative Humidity</name>
+        <value>No Areas</value>
+      </fire-weather>
+      <fire-weather type="risk from dry thunderstorms" time-layout="k-p24h-n1-2">
+        <name>Fire Weather Outlook from Dry Thunderstorms</name>
+        <value>No Areas</value>
+      </fire-weather>
+      <convective-hazard>
+        <outlook time-layout="k-p24h-n1-2">
+          <name>Convective Hazard Outlook</name>
+          <value>No Thunderstorms</value>
+        </outlook>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="tornadoes" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Tornadoes</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="hail" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Hail</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="damaging thunderstorm winds" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Damaging Thunderstorm Winds</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="extreme tornadoes" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Extreme Tornadoes</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="extreme hail" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Extreme Hail</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <convective-hazard>
+        <severe-component type="extreme thunderstorm winds" units="percent" time-layout="k-p24h-n1-2">
+          <name>Probability of Extreme Thunderstorm Winds</name>
+          <value>0</value>
+        </severe-component>
+      </convective-hazard>
+      <climate-anomaly>
+        <monthly type="average temperature above normal" units="percent" time-layout="k-p1m-n1-7">
+          <name>Probability of One-Month Average Temperature Above Normal</name>
+          <value>35</value>
+        </monthly>
+      </climate-anomaly>
+      <climate-anomaly>
+        <monthly type="average temperature below normal" units="percent" time-layout="k-p1m-n1-7">
+          <name>Probability of One-Month Average Temperature Below Normal</name>
+          <value>31</value>
+        </monthly>
+      </climate-anomaly>
+      <climate-anomaly>
+        <monthly type="average precipitation above normal" units="percent" time-layout="k-p1m-n1-7">
+          <name>Probability of One-Month Average Precipitation Above Normal</name>
+          <value>34</value>
+        </monthly>
+      </climate-anomaly>
+      <climate-anomaly>
+        <monthly type="average precipitation below normal" units="percent" time-layout="k-p1m-n1-7">
+          <name>Probability of One-Month Average Precipitation Below Normal</name>
+          <value>34</value>
+        </monthly>
+      </climate-anomaly>
+      <climate-anomaly>
+        <seasonal type="average temperature above normal" units="percent" time-layout="k-p3m-n1-8">
+          <name>Probability of Three-Month Average Temperature Above Normal</name>
+          <value>33</value>
+        </seasonal>
+      </climate-anomaly>
+      <climate-anomaly>
+        <seasonal type="average temperature below normal" units="percent" time-layout="k-p3m-n1-8">
+          <name>Probability of Three-Month Average Temperature Below Normal</name>
+          <value>33</value>
+        </seasonal>
+      </climate-anomaly>
+      <climate-anomaly>
+        <seasonal type="average precipitation above normal" units="percent" time-layout="k-p3m-n1-8">
+          <name>Probability of Three-Month Average Precipitation Above Normal</name>
+          <value>33</value>
+        </seasonal>
+      </climate-anomaly>
+      <climate-anomaly>
+        <seasonal type="average precipitation below normal" units="percent" time-layout="k-p3m-n1-8">
+          <name>Probability of Three-Month Average Precipitation Below Normal</name>
+          <value>33</value>
+        </seasonal>
+      </climate-anomaly>
+      <wind-speed type="gust" units="knots" time-layout="k-p3h-n4-5">
+        <name>Wind Speed Gust</name>
+        <value>11</value>
+        <value>8</value>
+        <value>6</value>
+        <value>8</value>
+      </wind-speed>
+      <wind-speed type="incremental34" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 34 Knots (Incremental)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <wind-speed type="incremental50" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 50 Knots (Incremental)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <wind-speed type="incremental64" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 64 Knots (Incremental)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <wind-speed type="cumulative34" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 34 Knots (Cumulative)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <wind-speed type="cumulative50" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 50 Knots (Cumulative)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <wind-speed type="cumulative64" units="percent" time-layout="k-p6h-n3-4">
+        <name>Probability of a Tropical Cyclone Wind Speed above 64 Knots (Cumulative)</name>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+        <value xsi:nil="true"/>
+      </wind-speed>
+      <humidity type="relative" units="percent" time-layout="k-p3h-n4-5">
+        <name>Relative Humidity</name>
+        <value>47</value>
+        <value>72</value>
+        <value>79</value>
+        <value>77</value>
+      </humidity>
+      <humidity type="maximum relative" units="percent" time-layout="k-p12h-n1-9">
+        <name>Daily Maximum Relative Humidity</name>
+        <value>79</value>
+      </humidity>
+      <humidity type="minimum relative" units="percent" time-layout="k-p12h-n2-10">
+        <name>Daily Minimum Relative Humidity</name>
+        <value>44</value>
+        <value>38</value>
+      </humidity>
+      <weather time-layout="k-p3h-n4-5">
+        <name>Weather Type, Coverage, and Intensity</name>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+      </weather>
+      <conditions-icon type="forecast-NWS" time-layout="k-p3h-n4-5">
+        <name>Conditions Icons</name>
+        <icon-link>http://forecast.weather.gov/images/wtf/skc.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nfew.jpg</icon-link>
+      </conditions-icon>
+      <hazards time-layout="k-p1h-n10-6">
+        <name>Watches, Warnings, and Advisories</name>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+      </hazards>
+      <water-state time-layout="k-p3h-n4-5">
+        <waves type="significant" units="feet">
+          <name>Wave Height</name>
+          <value xsi:nil="true"/>
+          <value xsi:nil="true"/>
+          <value xsi:nil="true"/>
+          <value xsi:nil="true"/>
+        </waves>
+      </water-state>
+    </parameters>
+  </data>
+</dwml>
