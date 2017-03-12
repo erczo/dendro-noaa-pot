@@ -1,0 +1,19 @@
+{
+  "name": "dendro-noaa-pot",
+  "version": "1.0.0",
+  "description": "NOAA weather microservice proof of technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erczo/dendro-noaa-pot.git"
+  },
+  "author": "Chris Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erczo/dendro-noaa-pot/issues"
+  },
+  "homepage": "https://github.com/erczo/dendro-noaa-pot#readme"
+}
