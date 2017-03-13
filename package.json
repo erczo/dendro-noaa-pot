@@ -4,6 +4,7 @@
   "description": "NOAA weather microservice proof of technology",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
