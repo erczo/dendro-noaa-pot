@@ -1,10 +1,10 @@
 var fs = require('fs');
-var xml2js = require('xml2js');
-
-var parser = new xml2js.Parser();
+var parseString = require('xml2js').parseString;
+var DOMParser = require('xmldom').DOMParser;
 
 fs.readFile(__dirname + '/input.xml', 'utf8', function(err, data) {
-  parser.parseString(data, function(err, result) {
+  var xmlStringSerialized = new DOMParser().parseFromString(data, 'text/xml');
+  parseString(xmlStringSerialized, function(err, result) {
     if(err) {
       return console.log(err);
     }
